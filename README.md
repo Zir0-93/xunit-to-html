@@ -21,8 +21,8 @@ Converts xUnit XML reports into beautiful looking HTML page reports using XSLT.
 ```bash
 java -jar saxon9he.jar -o:report.html -s:report.xml -xsl:xunit_to_html.xsl
 ```
-3. `report.html` will be generated in the working directory, now you are free to view or push to the cloud for veiwing.\
+3. `report.html` will be generated in the working directory, now you are free to view or push to the cloud for further visibility.
 
 # Authors
 
-* [**Muntazir Fadhel**](https://zir0-93.github.io/) - *Initial work and maintainer* 
+- [**Muntazir Fadhel**](https://zir0-93.github.io/) - *Initial work and maintainer* 
