@@ -1,0 +1,111 @@
+<testsuite errors="1" failures="5" name="nose2-junit" skips="1" tests="25" time="10.004">
+  
+  <testcase classname="pkg1.test.cherry" name="test_fixt" time="5.300091" />
+  <testcase classname="pkg1.test.cherry" name="test_func" time="1.500084" />
+  <testcase classname="pkg1.test.test_things.SomeTests" name="test_failed" time="2.000113">
+    <failure type="builtins.KeyError" message="Not the Same Object expected:com.areyes1.junitreport.service.ServiceObject@5de6cecc> but was:com.areyes1.junitreport.service.ServiceObject@5c12e33d>">Traceback (most recent call last):
+  File "nose2/tests/functional/support/scenario/tests_in_package/pkg1/test/test_things.py", line 17, in test_failed
+    assert False, "I failed"
+AssertionError: I failed
+</failure>
+<system-out><![CDATA[Initialized Seekingalpha data DAO
+Initialized Barrons data DAO
+Initialized Benzinga data DAO
+Initialized Businesswire data DAO
+Initialized CNN data DAO
+Initialized Fortune.com data DAO
+Initialized Investorplace data DAO
+Initialized Marketwired data DAO
+Initialized Morningstar data DAO
+Initialized Nasdaq data DAO
+Initialized Reuters data DAO
+Initialized TheStreet data DAO
+Initialized Zacks data DAO
+Initialized tmcnet data DAO
+Initialized yahoo data DAO
+Initialized businessinsider data DAO
+]]></system-out>
+  </testcase>
+  <testcase classname="pkg1.test.test_things.SomeTests" name="test_ok" time="5.000093" />
+  <testcase classname="pkg1.test.test_things.SomeTests" name="test_params_method:1" time="1.030099" />
+  <testcase classname="pkg1.test.test_things.SomeTests" name="test_params_method:2" time="1.240101">
+    <failure type="builtins.KeyError" message="Not the Same Object expected:com.areyes1.junitreport.service.ServiceObject@5de6cecc> but was:com.areyes1.junitreport.service.ServiceObject@5c12e33d>">Traceback (most recent call last):
+  File "nose2/plugins/loader/parameters.py", line 144, in _method
+    return method(self, *argSet)
+  File "nose2/tests/functional/support/scenario/tests_in_package/pkg1/test/test_things.py", line 29, in test_params_method
+    self.assertEqual(a, 1)
+AssertionError: 2 != 1
+</failure>
+<system-out><![CDATA[Initialized Seekingalpha data DAO
+Initialized Barrons data DAO
+Initialized Benzinga data DAO
+Initialized Businesswire data DAO
+Initialized CNN data DAO
+Initialized Fortune.com data DAO
+Initialized Investorplace data DAO
+Initialized Marketwired data DAO
+Initialized Morningstar data DAO
+Initialized Nasdaq data DAO
+Initialized Reuters data DAO
+Initialized TheStreet data DAO
+Initialized Zacks data DAO
+Initialized tmcnet data DAO
+Initialized yahoo data DAO
+Initialized businessinsider data DAO
+]]></system-out>
+  </testcase>
+  <testcase classname="pkg1.test.test_things.SomeTests" name="test_skippy" time="74.300104">
+    <skipped />
+  </testcase>
+  <testcase classname="pkg1.test.test_things.SomeTests" name="test_typeerr" time="1.350096">
+    <error type="builtins.KeyError" message="Not the Same Object expected:com.areyes1.junitreport.service.ServiceObject@5de6cecc> but was:com.areyes1.junitreport.service.ServiceObject@5c12e33d>">Traceback (most recent call last):
+  File "nose2/tests/functional/support/scenario/tests_in_package/pkg1/test/test_things.py", line 13, in test_typeerr
+    raise TypeError("oops")
+TypeError: oops
+</error>
+<system-out><![CDATA[Initialized Seekingalpha data DAO
+Initialized Barrons data DAO
+Initialized Benzinga data DAO
+Initialized Businesswire data DAO
+Initialized CNN data DAO
+Initialized Fortune.com data DAO
+Initialized Investorplace data DAO
+Initialized Marketwired data DAO
+Initialized Morningstar data DAO
+Initialized Nasdaq data DAO
+Initialized Reuters data DAO
+Initialized TheStreet data DAO
+Initialized Zacks data DAO
+Initialized tmcnet data DAO
+Initialized yahoo data DAO
+Initialized businessinsider data DAO
+]]></system-out>
+  </testcase>
+  <testcase classname="pkg1.test.test_things.SomeTests" name="test_gen_method:1" time="3.200094" />
+  <testcase classname="pkg1.test.test_things.SomeTests" name="test_gen_method:2" time="2.080090">
+    <failure type="builtins.KeyError" message="Not the Same Object expected:com.areyes1.junitreport.service.ServiceObject@5de6cecc> but was:com.areyes1.junitreport.service.ServiceObject@5c12e33d>">Traceback (most recent call last):
+  File "nose2/plugins/loader/generators.py", line 145, in method
+    return func(*args)
+  File "nose2/tests/functional/support/scenario/tests_in_package/pkg1/test/test_things.py", line 24, in check
+    assert x == 1
+AssertionError
+</failure>
+<system-out><![CDATA[Initialized Seekingalpha data DAO
+Initialized Barrons data DAO
+Initialized Benzinga data DAO
+Initialized Businesswire data DAO
+Initialized CNN data DAO
+Initialized Fortune.com data DAO
+Initialized Investorplace data DAO
+Initialized Marketwired data DAO
+Initialized Morningstar data DAO
+Initialized Nasdaq data DAO
+Initialized Reuters data DAO
+Initialized TheStreet data DAO
+Initialized Zacks data DAO
+Initialized tmcnet data DAO
+Initialized yahoo data DAO
+Initialized businessinsider data DAO
+]]></system-out>
+  </testcase>
+</testsuite>
