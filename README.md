@@ -41,7 +41,7 @@ xunit-to-html can be used to generate beautiful looking reports from any xUnit s
 ```bash
 java -jar saxon9he.jar -o:report.html -s:report.xml -xsl:xunit_to_html.xsl
 ```
-`report.html` will be generated in the working directory, you can now view or push the report to cloud for further visibility.
+`report.html` will be generated in the working directory, you can now view or push the report to the cloud for further visibility.
 
 # Authors
 
